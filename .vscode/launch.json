@@ -1,0 +1,51 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ContactoApplication",
+            "request": "launch",
+            "mainClass": "cl.nutrivida.contacto.ContactoApplication",
+            "projectName": "contacto"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-UsuariosApplication<usuarios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.usuarios.UsuariosApplication",
+            "projectName": "usuarios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ServiciosApplication<servicios>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.servicios.ServiciosApplication",
+            "projectName": "servicios",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ProfesionalesApplication<profesionales>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.profesionales.ProfesionalesApplication",
+            "projectName": "profesionales",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-ReservaApplication<reserva>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "cl.nutrivida.reserva.ReservaApplication",
+            "projectName": "reserva",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
